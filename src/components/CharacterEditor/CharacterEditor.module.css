@@ -1,4 +1,7 @@
 .characterEditor {
+  position: relative;
+  z-index: 1;
+
   padding-top: 128px;
   padding-bottom: 64px;
 }
@@ -35,4 +38,12 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.perspectiveDecoration {
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  bottom: 0;
+  height: 40%;
+  width: 100%;
 }
