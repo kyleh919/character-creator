@@ -1,12 +1,10 @@
 .characterEditor {
-  position: relative;
-  z-index: 1;
-
   padding-top: 128px;
   padding-bottom: 64px;
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
